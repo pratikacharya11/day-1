@@ -1,0 +1,40 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: #D5FF40;
+}
+a{
+    text-decoration: none;
+    padding-right: 30px;
+    color: #000;
+    font-size:22px;
+
+}
+html,body{
+    height:100%;
+    width: 100%;
+    padding: 0px 10px 0px 10px;
+}
+#main{
+    height:100%;
+    width:100%; 
+
+}
+#nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid black;
+    max-width: 100%;
+    padding: 30px 20px 30px 20px;
+}
+#nav-part2{
+    display: flex;
+    gap: 30px;
+}
+#nav-part2 h2{
+    font-weight: 510;
+ 
+}
